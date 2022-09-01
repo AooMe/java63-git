@@ -1,1 +1,161 @@
-<mxfile host="app.diagrams.net" modified="2022-09-01T08:01:27.566Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70" version="20.2.7" etag="eZNslJ-JWhRQHpgKtlJd" type="github"><diagram id="0VfSgjrlviaQn3smRxLj">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-01T08:43:23.463Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70" etag="m4vdB4P8bHEMEsQWyFXS" version="20.2.7" type="github">
+  <diagram id="0VfSgjrlviaQn3smRxLj" name="第 1 页">
+    <mxGraphModel dx="1278" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="_pOYREo-t2BnV2Cc39ep-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-1" value="客户端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="_pOYREo-t2BnV2Cc39ep-3" target="_pOYREo-t2BnV2Cc39ep-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="_pOYREo-t2BnV2Cc39ep-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="_pOYREo-t2BnV2Cc39ep-3" target="_pOYREo-t2BnV2Cc39ep-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="140" />
+              <mxPoint x="130" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="_pOYREo-t2BnV2Cc39ep-3" target="_pOYREo-t2BnV2Cc39ep-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="30" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="55" />
+              <mxPoint x="60" y="55" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-3" value="前端控制器&lt;br&gt;dispactherServlet" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-5" value="1.发送请求" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="_pOYREo-t2BnV2Cc39ep-7" target="_pOYREo-t2BnV2Cc39ep-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="20" />
+              <mxPoint x="365" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-7" value="处理器映射器&lt;br&gt;HandlerMapping" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="620" y="80" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-13" value="2.调用" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="490" y="80" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-14" value="3.返回HandlerExecutionChain&lt;br&gt;处理器执行器链" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="425" y="20" width="225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="_pOYREo-t2BnV2Cc39ep-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="_pOYREo-t2BnV2Cc39ep-16" target="_pOYREo-t2BnV2Cc39ep-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-16" value="HandlerAdapter&lt;br&gt;处理器适配器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="305" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-18" value="4.通过处理器适配器调用具体的处理器" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="369" y="160" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="_pOYREo-t2BnV2Cc39ep-21" target="_pOYREo-t2BnV2Cc39ep-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="285" y="440" />
+              <mxPoint x="285" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-21" value="Handler&lt;br&gt;Controller" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="305" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-25" value="5.调用处理器" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="368" y="360" width="102" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-27" value="6.返回视图模板&lt;br&gt;ModleAndView" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="170" y="360" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-30" value="7.再将视图模板返回给前端控制器" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="150" y="182.5" width="130" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="_pOYREo-t2BnV2Cc39ep-34" target="_pOYREo-t2BnV2Cc39ep-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="_pOYREo-t2BnV2Cc39ep-34" target="_pOYREo-t2BnV2Cc39ep-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-34" value="8.视图" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="180" y="550" width="95" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="_pOYREo-t2BnV2Cc39ep-37" target="_pOYREo-t2BnV2Cc39ep-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-37" value="有视图" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="368" y="500" width="77" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-39" value="通过视图解析器ViewResoler返回一个view" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="500" y="495" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="_pOYREo-t2BnV2Cc39ep-42" target="_pOYREo-t2BnV2Cc39ep-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-42" value="无视图" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="367.5" y="600" width="77.5" height="45.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-44" value="使用默认的视图" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="500" y="592.75" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-49" value="" style="endArrow=none;html=1;rounded=0;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.387;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_pOYREo-t2BnV2Cc39ep-44" target="_pOYREo-t2BnV2Cc39ep-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="630" as="sourcePoint" />
+            <mxPoint x="720" y="520" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-50" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="_pOYREo-t2BnV2Cc39ep-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="580" as="sourcePoint" />
+            <mxPoint x="590" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="740" y="580" />
+              <mxPoint x="740" y="520" />
+              <mxPoint x="740" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-51" value="9.前端控制器根据view进行视图渲染" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="610" y="260" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_pOYREo-t2BnV2Cc39ep-53" value="10.最终相应给客户端" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="100" y="20" width="160" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
